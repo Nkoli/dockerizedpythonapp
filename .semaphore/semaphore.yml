@@ -37,4 +37,4 @@ blocks:
             - python manage.py check --deploy
         - name: Style Check
           commands:
-            - flake8 martor_demo/
+            - flake8 martor_demo/ --max-line-length=127
